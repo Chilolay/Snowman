@@ -6,28 +6,46 @@ html{
 
 }
 
-/* .container{
+.container{
+    /* background-color: black; */
+    margin: auto;
+    height: 650px;
+    width: 480px;
     position: absolute;
-    top: 30%;
-    left: -10%;
+    bottom: 0;
+    top: 350px;
+    left: 0;
+    right: 0;
 
-} */
+}
+
+
+.head{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    top: 120px;
+    left: 190px;
+}
+
 
 .Hat_Top {
     background-color: darkgreen;
-    position: absolute;
-    left: 620px;
-    top: 45px;
+    position: relative;
+    left: 20px;
+    top: -50px;
     width: 60px;
     height: 50px;
     border-radius: 10% 10% 0 0;
 }
-  
+
 .Hat_Middle {
     background-color: maroon;
-    position: absolute;
-    left: 620px;
-    top: 90px;
+    position: relative;
+    left: 20px;
+    top: -58px;
     width: 60px;
     height: 14px;
     border-radius: 20%;
@@ -35,54 +53,51 @@ html{
   
 .Hat_Bottom {
     background-color: darkgreen;
-    position: absolute;
-    left: 606px;
-    top: 100px;
+    position: relative;
+    left: 6px;
+    top: -60px;
     width: 88px;
     height: 13px;
-    z-index: 1;
     border-radius: 20%;
 }
   
 .Scarf_Right {
     background-color: maroon;
-    position: absolute;
-    left: 655px;
-    top: 190px;
+    position: relative;
+    left: 85px;
+    top: -10px;
     width: 24px;
     height: 59px;
-    z-index: 1;
     border-radius: 25%;
 }
   
 .Scarf_Center {
     background-color: maroon;
-    position: absolute;
-    left: 605px;
-    top: 187px;
+    position: relative;
+    left: 30px;
+    top: 0px;
     width: 90px;
     height: 18px;
     border-radius: 25%;
-    z-index: 1;
 }
   
 .Scarf_Left {
     background-color: maroon;
-    position: absolute;
-    left: 630px;
-    top: 198px;
+    position: relative;
+    left: 46px;
+    top: -65px;
     width: 18px;
     height: 29px;
     border-radius: 25%;
-    z-index: 1;
+
 }
 
 .eyes{
     width: 15px;
     height: 15px;
-    position: absolute;
-    top: 130px;
-    left: 621px;
+    position: relative;
+    top: -50px;
+    left: 20px;
     background: black;
     border-radius: 50%;
     box-shadow: 45px 0;
@@ -91,9 +106,9 @@ html{
 .nose{
     width: 0;
     height: 0;
-    top: 138px;
-    left: 659px;
-    position: absolute;
+    top: -56px;
+    left: 56px;
+    position: relative;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 30px solid orange;
@@ -104,31 +119,22 @@ html{
 .mouth{
     width: 5px;
     height: 5px;
-    position: absolute;
-    top: 175px;
-    left: 648px;
+    position: relative;
+    top: -50px;
+    left: 47px;
     background: black;
     border-radius: 50%;
     z-index: 1;
     box-shadow: 17px -2px, -17px -2px, -30px -10px, 30px -10px;
 }
 
-.head{
-    width: 100px;
-    height: 100px;
-    background: white;
-    border-radius: 50%;
-    position: absolute;
-    top: 100px;
-    left: 600px;
-}
 
 .buttonMiddle{
     width: 10px;
     height: 10px;
-    position: absolute;
-    top: 220px;
-    left: 648px;
+    position: relative;
+    top: -75px;
+    left: 70px;
     background: black;
     border-radius: 50%;
     box-shadow: 0px 70px;
@@ -139,83 +145,83 @@ html{
     height: 150px;
     background: white;
     border-radius: 50%;
-    position: absolute;
-    top: 185px;
-    left: 576px;
+    position: relative;
+    top: 105px;
+    left: 165px;
 }
 
 .branch1L{
-    position: absolute;
+    position: relative;
     background-color: #6B4000;
     width: 8px;
     height: 80px;
-    top: 220px;
-    left: 746px; 
-    transform: rotate(120deg);
+    top: -80px;
+    left: -30px; 
+    transform: rotate(-120deg);
     border-radius: 30%;
 }
 
 .branch2L{
-    position: absolute;
+    position: relative;
     background-color: #6B4000;
     width: 5px;
     height: 20px;
-    top: 258px;
-    left: 774px; 
-    transform: rotate(50deg);
+    top: -110px;
+    left: -50px; 
+    transform: rotate(10deg);
     border-radius: 30%;
 }
 
 .branch3L{
-    position: absolute;
+    position: relative;
     background-color: #6B4000;
     width: 5px;
     height: 20px;
-    top: 272px;
-    left: 770px; 
-    transform: rotate(-10deg);
+    top: -141px;
+    left: -55px; 
+    transform: rotate(-70deg);
     border-radius: 30%;
 }
 
 .branch1R{
-    position: absolute;
+    position: relative;
     background-color: #6B4000;
     width: 8px;
     height: 80px;
-    top: 226px;
-    right: 800px; 
-    transform: rotate(-125deg);
+    top: -203px;
+    right: -170px; 
+    transform: rotate(120deg);
     border-radius: 30%;
 }
 
 .branch2R{
-    position: absolute;
+    position: relative;
     background-color: #6B4000;
     width: 5px;
     height: 20px;
-    top: 268px;
-    right: 830px; 
-    transform: rotate(-60deg);
+    top: -245px;
+    right: -200px; 
+    transform: rotate(70deg);
     border-radius: 30%;
 }
 
 .branch3R{
-    position: absolute;
+    position: relative;
     background-color: #6B4000;
     width: 5px;
     height: 20px;
-    top: 279px;
-    right: 822px; 
-    transform: rotate(-8deg);
+    top: -251px;
+    right: -193px; 
+    transform: rotate(-10deg);
     border-radius: 30%;
 }
 
 .buttonBottom{
     width: 10px;
     height: 10px;
-    position: absolute;
-    top: 360px;
-    left: 648px;
+    position: relative;
+    top: 40px;
+    left: 102px;
     background: black;
     border-radius: 50%;
     box-shadow: 0px 70px;
@@ -225,10 +231,50 @@ html{
 .bottom{
     width: 210px;
     height: 210px;
-    position: absolute;
+    position: relative;
     background: white;
     border-radius: 50%;
-    top: 310px;
-    left: 546px;
+    top: 80px;
+    left: 134px;
 }
 
+.snow{
+    background-color: white;
+    height: 200px;
+    width: 108vw;
+    position: absolute;
+    bottom: 0;
+    margin-bottom:-200px;
+    left:-8px;
+}
+
+.snowfall{
+    background: url(images/Snow2.png);
+    height: 100vh;
+    /* width: 100vh; */
+    background-repeat: repeat;
+    animation: snow 1.6s linear infinite;
+    position: relative;
+    margin: 0;
+}
+
+@keyframes snow{
+    0%{
+        background-position: 0 0;
+    }
+    20%{
+        background-position: 50px 50px;
+    }
+    40%{
+        background-position: 100px 100px;
+    }
+    60%{
+        background-position: 150px 150px;
+    }
+    80%{
+        background-position: 200px 200px;
+    }
+    100%{
+        background-position: 250px 250px;
+    }
+}
