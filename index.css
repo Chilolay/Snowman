@@ -278,3 +278,48 @@ html{
         background-position: 250px 250px;
     }
 }
+
+/* @media screen and (min-width: 320px) {
+
+  } */
+
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    .container{
+        top: 280px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    /* styles for browsers larger than 1440px; */
+    .container{
+        top: 200px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+   /* styles for mobile browsers smaller than 480px; (iPhone) */
+   .container{
+    top: 1090px;
+}
+}
+@media only screen and (max-device-width: 375px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container{
+     top: 1290px;
+ }
+ }
+ @media only screen and (max-device-width: 320px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container{
+     top: 1600px;
+ }
+ }
+@media only screen and (device-width: 768px) {
+   /* default iPad screens */
+   .container{
+    top: 450px;
+}
+}
+
+  
