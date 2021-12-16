@@ -18,6 +18,16 @@ html{
     right: 0;
 
 }
+@font-face {
+    font-family: MiraculousChristmas;
+    src: url(./font/MiraculousChristmas.ttf);
+}
+.holidayGreeting{
+    width:100%;
+    text-align:center;
+    font-size: 165px;
+    font-family: MiraculousChristmas;
+}
 
 
 .head{
@@ -251,11 +261,12 @@ html{
 .snowfall{
     background: url(images/Snow2.png);
     height: 100vh;
-    /* width: 100vh; */
+    width: 108%;
     background-repeat: repeat;
     animation: snow 1.6s linear infinite;
     position: relative;
     margin: 0;
+    top:-200px
 }
 
 @keyframes snow{
@@ -284,10 +295,22 @@ html{
   } */
 
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1024px) {
     /* styles for browsers larger than 960px; */
     .container{
         top: 280px;
+    }
+    .snow {
+        height:310px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-device-height:1400px){
+    /* styles for browsers larger than 960px; */
+    .container{
+        top: 280px;
+    }
+    .snow {
+        height:580px;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -295,31 +318,65 @@ html{
     .container{
         top: 200px;
     }
+    .snow {
+        height:390px;
+    }
 }
 
 @media only screen and (max-device-width: 480px) {
    /* styles for mobile browsers smaller than 480px; (iPhone) */
    .container{
-    top: 1090px;
+    top: 990px;
+    }
+    .snow {
+        height:480px;
+    }
 }
-}
-@media only screen and (max-device-width: 375px) {
+@media only screen and (max-device-width: 414px) {
     /* styles for mobile browsers smaller than 480px; (iPhone) */
     .container{
-     top: 1290px;
+     top: 190px;
+     }
+     .snow {
+         height:780px;
+     }
  }
+@media only screen and (max-device-width: 375px) and (max-device-height:812px){
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container{
+     top: -290px;
+    }
+    .snow {
+        height:1230px;
+    }
+ }
+ @media only screen and (max-device-width: 375px) and (max-device-height:680px){
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .container{
+     top: -290px;
+    }
+    .snow {
+        height:1030px;
+    }
  }
  @media only screen and (max-device-width: 320px) {
     /* styles for mobile browsers smaller than 480px; (iPhone) */
     .container{
-     top: 1600px;
- }
+     top: 200px;
+    }
+    .snow {
+        height:800px;
+    }
  }
 @media only screen and (device-width: 768px) {
    /* default iPad screens */
    .container{
     top: 450px;
+    }
+    .snow {
+        height:450px;
+    }
 }
-}
+
 
   
